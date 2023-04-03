@@ -8,11 +8,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Programming Quote"
+        android:textSize="18sp"
         android:id="@+id/txtPQ"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#7B7171"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Prgramming Quote Alter"
+        android:textSize="18sp"
         android:id="@+id/txtPQA"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#545252"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

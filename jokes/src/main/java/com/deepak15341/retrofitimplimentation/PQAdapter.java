@@ -31,8 +31,8 @@ public class PQAdapter extends RecyclerView.Adapter<PQViewholder> {
     @Override
     public void onBindViewHolder(@NonNull PQViewholder holder, int position) {
         Quotemodal quotemodal = mQuotemodal.get(position);
-        holder.getTxtPQ().setText(quotemodal.getEn());
-        holder.getTxtPQA().setText(quotemodal.getAuthor());
+        holder.getTxtPQ().setText(" "+quotemodal.getSetup());
+        holder.getTxtPQA().setText("-> "+quotemodal.getPunchline());
 
     }
 

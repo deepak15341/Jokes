@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 
 public interface Quoteinterface {
 
-    @GET("quotes")
+    @GET("random_ten")
     Call<List<Quotemodal>> getQuotes();
 
 }
