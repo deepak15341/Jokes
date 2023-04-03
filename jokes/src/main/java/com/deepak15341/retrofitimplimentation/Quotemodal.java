@@ -13,15 +13,10 @@ public class Quotemodal {
         return setup;
     }
 
-    public void setSetup(String setup) {
-        this.setup = setup;
-    }
+
 
     public String getPunchline() {
         return punchline;
     }
 
-    public void setPunchline(String punchline) {
-        this.punchline = punchline;
-    }
 }
